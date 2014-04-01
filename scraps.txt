@@ -1,0 +1,12 @@
+f = open("states.txt", 'w')
+f.write(states)
+f = open("states.txt", 'r')
+t = f.read()
+print "File " + t
+
+
+def scraps():
+    text_str = st.readlines()
+    # print st
+    states_list = list(st)
+    # print states_list

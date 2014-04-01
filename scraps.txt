@@ -10,3 +10,10 @@ def scraps():
     # print st
     states_list = list(st)
     # print states_list
+
+
+    /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div[2]
+
+    //*[@id="select-region"]/div[2]/span
+    ('//*[@id="select-region"]/div[2]')
+    ('//*[@id="select-region"]/div[3]/ul')

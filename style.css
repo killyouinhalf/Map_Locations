@@ -1,0 +1,13 @@
+.header {
+	margin: auto;
+	/*text-align: center;*/
+	padding-top: 16px;
+	padding-left: 78px;
+	height: 65px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 36px;
+	color: #424242;
+	background-color: #D8D8D8;
+}

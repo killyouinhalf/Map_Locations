@@ -24,7 +24,7 @@ button.click()
 # Identify all states in the list, read as text using Selenium, then print
 list_item = browser.find_element_by_class_name('drop-down-list')
 states = list_item.text
-print ("States: " + states)
+print ("States list: " + states)
 print()
 # Give time to load all states
 print ("Waiting...")

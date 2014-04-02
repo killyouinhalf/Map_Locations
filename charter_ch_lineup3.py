@@ -24,30 +24,44 @@ button = browser.find_element_by_css_selector('.drop-down-current')
 button.click()
 #
 # # Identify all states in the list, read as text using Selenium, then print
-# list_item = browser.find_element_by_class_name('drop-down-list')
-# states = list_item.text
+list_item = browser.find_element_by_class_name('drop-down-list')
+states = list_item.text
+# ass = list_item.split('\n')
+# print ass
 # print ("States list: " + states)
 # print()
 # # Give time to load all states
 # print ("Waiting...")
-sleep(1)
+# sleep(1)
 # print ("CLEAR!")
 # print()
 #
 #
 # # Find specific state using Selenium
+# sel_st = raw_input('Type in 2 letter st abbreviation: ')
 find_st = browser.find_element_by_link_text('MI')
 find_st.click()
 sleep(1)
-list_region = browser.find_element_by_xpath('//*[@id="select-region"]/div[2]')
+
+list_region = browser.find_element_by_xpath('//*[@id="select-region"]/div[2]') # find and click Choose Region button
 list_region.click()
-cur_state = browser.find_element_by_xpath('//*[@id="select-region"]/div[3]/ul')
-regions = cur_state.text
-f_regions = open('Regions.txt', 'w')
-print('REGIONS!')
-print (f_regions, regions)
-print('End of Regions')
-f_regions.close()
+cur_state = browser.find_element_by_xpath('//*[@id="select-region"]/div[3]')
+# text_region = cur_state.find_elements_by_tag_name('a') # find all regions by <a> tag
+l_regions = cur_state.text
+print l_regions
+
+def new_file() # creates text file with all the regions, probably don't need it
+    regions = open('Regions.text', 'w')
+    regions.write('Clear' + '\n')
+    regions = open('Regions.text', 'a+')
+    regions.write('Regions file' + '\n')
+    regions.write(l_regions)
+    regions = open('Regions.text', 'r')
+    text_regions = regions.read()
+    print('From text file')
+    print text_regions
+# new_file()
+regions.close()
 
 
 # Place region points on map
@@ -59,8 +73,8 @@ def gmaps_mapit():
     print ("Mapping it!")
     # f = open('regions', 'r')
     map_regions = []
-    for line in regions:
-        map_regions.append(line.rstrip('\n'))
+    for line in l_regions:
+        map_regions.append('\n')
     print map_regions
 
     # home = "Home"

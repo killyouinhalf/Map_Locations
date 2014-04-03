@@ -6,6 +6,7 @@ from time import sleep
 from contextlib import closing
 from selenium.webdriver import Firefox
 from selenium.webdriver.support.ui import WebDriverWait
+from pygeocoder import Geocoder
 from googlemaps import GoogleMaps
 # from selenium.webdriver.support import expected_conditions as EC
 
@@ -46,22 +47,15 @@ sleep(1)
 list_region = browser.find_element_by_xpath('//*[@id="select-region"]/div[2]') # find and click Choose Region button
 list_region.click()
 cur_state = browser.find_element_by_xpath('//*[@id="select-region"]/div[3]')
+
 # text_region = cur_state.find_elements_by_tag_name('a') # find all regions by <a> tag
 l_regions = cur_state.text
-print l_regions
+# print l_regions
+# print list(l_regions)
 
-def new_file() # creates text file with all the regions, probably don't need it
-    regions = open('Regions.text', 'w')
-    regions.write('Clear' + '\n')
-    regions = open('Regions.text', 'a+')
-    regions.write('Regions file' + '\n')
-    regions.write(l_regions)
-    regions = open('Regions.text', 'r')
-    text_regions = regions.read()
-    print('From text file')
-    print text_regions
-# new_file()
-regions.close()
+# creates text file with all the region
+regions = open('Regions.text', 'w')
+regions.write(l_regions)
 
 
 # Place region points on map
@@ -70,24 +64,23 @@ regions.close()
 #     print "(gmaps test)"
 
 def gmaps_mapit():
-    print ("Mapping it!")
-    # f = open('regions', 'r')
-    map_regions = []
-    for line in l_regions:
-        map_regions.append('\n')
-    print map_regions
+    # print ("Mapping it!")
+    # map_regions = []
+    # for line in l_regions:
+    #     map_regions.append(line)
+    # print map_regions
 
-    # home = "Home"
-    # st_coords = []
-    # def geo_state():
-    #     for st in states:
-    #         geo = Geocoder.geocode(st)
-    #         point = (geo[0].coordinates)
-    #         st_coords.append(point)
-    #         time.sleep(0.5)
-    #         print st_coords
-    #
-    # geo_state()
+
+    st_coords = []
+    def geo_state():
+        for line in l_regions:
+            geo = Geocoder.geocode(line)
+            point = (geo[0].coordinates)
+            st_coords.append(point)
+            sleep(0.5)
+        print st_coords
+
+    geo_state()
     #
     #
     #

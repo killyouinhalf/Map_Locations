@@ -1,8 +1,13 @@
 to do:
-def gmaps_mapit(): needs to take an arg
 
-gmaps2.py line 9: main def needs to use arg to assign state so regions_map generates the correct map
-
+zoom state map to just bigger than state
+receive user input to select state
+account for states that don't support charter
+implment into web page
+find a way to do all this without launching firefox
+make stand alone app
+include map results within stand alone app
+find a way to search other sites without specific xpaths
 
 
 

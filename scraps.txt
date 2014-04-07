@@ -1,3 +1,12 @@
+to do:
+def gmaps_mapit(): needs to take an arg
+
+gmaps2.py line 9: main def needs to use arg to assign state so regions_map generates the correct map
+
+
+
+
+
 f = open("states.txt", 'w')
 f.write(states)
 f = open("states.txt", 'r')
@@ -17,3 +26,5 @@ def scraps():
     //*[@id="select-region"]/div[2]/span
     ('//*[@id="select-region"]/div[2]')
     ('//*[@id="select-region"]/div[3]/ul')
+
+    self.coloricon = 'http://chart.apis.google.com/chart?cht=mm&chs=12x16&chco=FFFFFF,XXXXXX,000000&ext=.png'

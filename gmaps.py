@@ -47,7 +47,7 @@ def gmaps_mapit():
             # print split_joint
         #     print lats
         #     print lons
-        regions_map.addpoint(lat, lon)
+        regions_map.addpoint(float(lat), float(lon))
         #         region_coords.append(joint)
         #         time.sleep(0.5)
         # print region_coords

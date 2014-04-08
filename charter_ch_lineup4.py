@@ -23,15 +23,21 @@ class map_charter:
         # print states
 
         # sel_st = raw_input('Type in 2 letter st abbreviation: ')
-        self.find_st = browser.find_element_by_link_text('AL')
-        # return find_st
-        self.sel_st = self.find_st.text + ', USA'
-        print self.sel_st
-        self.find_st.click()
-        sleep(1)
-        list_region = browser.find_element_by_xpath('//*[@id="select-region"]/div[2]') # find and click Choose Region button
-        list_region.click()
-        cur_state = browser.find_element_by_xpath('//*[@id="select-region"]/div[3]')
+        def prompt(self)
+            self.st_prompt = raw_input("Enter 2 letter state abbreviation: ")
+            self.find_st = browser.find_element_by_link_text(st_prompt.upper())
+            self.sel_st = self.find_st.text + ', USA'
+            print self.sel_st
+            self.find_st.click() # click to sel state
+            sleep(1)
+            list_region = browser.find_element_by_xpath('//*[@id="select-region"]/div[2]') # find and click Choose Region button
+            while list_region != browser.find_element_by_xpath('//*[@id="select-region"]/div[2]'):
+                print "No Charter!"
+                self.prompt
+            else:
+                list_region.click()
+            cur_state = browser.find_element_by_xpath('//*[@id="select-region"]/div[3]')
+
 
         # text_region = cur_state.find_elements_by_tag_name('a') # find all regions by <a> tag
         l_regions = cur_state.text
@@ -76,11 +82,11 @@ class map_charter:
         def geo_region():
             for item in map_regions:
                 try:
-                    geo = Geocoder.geocode(item)
+                    geo_reg = Geocoder.geocode(item)
                 except:
                     pass
                 else:
-                    point = (geo[0].coordinates)
+                    point = (geo_reg[0].coordinates)
                     title = item
                     joint = ', '.join(map(str, point))
                     split_point = joint.split(',', 2)

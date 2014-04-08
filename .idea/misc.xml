@@ -5,6 +5,6 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="PyPy 2.2.1 virtualenv at ~/Envs/Pypy" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="PyPy 2.2.1 virtualenv at ~/venv/pypy" project-jdk-type="Python SDK" />
 </project>
 

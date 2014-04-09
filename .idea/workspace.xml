@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5b5c755-fade-4b24-a34d-97106f550d69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraps02.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Regions.text" afterPath="$PROJECT_DIR$/Regions.text" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Map_Locations.iml" afterPath="$PROJECT_DIR$/.idea/Map_Locations.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/charter_ch_lineup5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/charter_ch_lineup6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charter_ch_lineup4.py" afterPath="$PROJECT_DIR$/charter_ch_lineup4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mymap.html" afterPath="$PROJECT_DIR$/mymap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scraps.txt" afterPath="$PROJECT_DIR$/scraps.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,35 +33,20 @@
       <file leaf-file-name="charter_ch_lineup4.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charter_ch_lineup4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="39" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
+            <state line="5" column="31" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scraps.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scraps.txt">
+      <file leaf-file-name="charter_ch_lineup6.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/charter_ch_lineup6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scraps02.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scraps02.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mymap.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mymap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
-              <folding />
+            <state line="31" column="94" selection-start="964" selection-end="964" vertical-scroll-proportion="0.38073394" vertical-offset="299" max-vertical-offset="840">
+              <folding>
+                <element signature="e#25#47#0" expanded="true" />
+                <element signature="e#1400#1677#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +79,11 @@
         <option value="$PROJECT_DIR$/Regions2.text" />
         <option value="$PROJECT_DIR$/charter_ch_lineup3.py" />
         <option value="$PROJECT_DIR$/gmaps2.py" />
+        <option value="$PROJECT_DIR$/charter_ch_lineup5.py" />
+        <option value="$PROJECT_DIR$/input_test.py" />
         <option value="$PROJECT_DIR$/scraps.txt" />
         <option value="$PROJECT_DIR$/charter_ch_lineup4.py" />
+        <option value="$PROJECT_DIR$/charter_ch_lineup6.py" />
       </list>
     </option>
   </component>
@@ -173,7 +159,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/venv" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.2062147" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -194,6 +180,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="947" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -208,61 +195,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.charter_ch_lineup4">
-    <configuration default="false" name="gmaps" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Map_Locations" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gmaps.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="charter_ch_lineup3b" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Map_Locations" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charter_ch_lineup3b.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="open_ff" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Map_Locations" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_ff.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.charter_ch_lineup6">
     <configuration default="false" name="gmaps2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,6 +227,60 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Map_Locations" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charter_ch_lineup4.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="input_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Map_Locations" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input_test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="charter_ch_lineup5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Map_Locations" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charter_ch_lineup5.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="charter_ch_lineup6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Map_Locations" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charter_ch_lineup6.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -442,19 +429,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.charter_ch_lineup3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gmaps" />
-      <item index="2" class="java.lang.String" itemvalue="Python.charter_ch_lineup3b" />
-      <item index="3" class="java.lang.String" itemvalue="Python.open_ff" />
-      <item index="4" class="java.lang.String" itemvalue="Python.gmaps2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.charter_ch_lineup4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gmaps2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.charter_ch_lineup4" />
+      <item index="3" class="java.lang.String" itemvalue="Python.input_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.charter_ch_lineup5" />
+      <item index="5" class="java.lang.String" itemvalue="Python.charter_ch_lineup6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.charter_ch_lineup4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gmaps2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gmaps" />
-        <item index="3" class="java.lang.String" itemvalue="Python.charter_ch_lineup3b" />
-        <item index="4" class="java.lang.String" itemvalue="Python.open_ff" />
+        <item index="0" class="java.lang.String" itemvalue="Python.charter_ch_lineup6" />
+        <item index="1" class="java.lang.String" itemvalue="Python.charter_ch_lineup5" />
+        <item index="2" class="java.lang.String" itemvalue="Python.input_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.charter_ch_lineup4" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gmaps2" />
       </list>
     </recent_temporary>
   </component>
@@ -507,28 +494,32 @@
       <created>1396888894180</created>
       <updated>1396888894180</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Macbook git test">
+      <created>1396992768114</created>
+      <updated>1396992768114</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32991013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="247" y="293" width="786" height="231" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31664214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="247" y="293" width="786" height="231" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -551,7 +542,8 @@
     <MESSAGE value="1st attempt mapping multiple regions" />
     <MESSAGE value="add new files" />
     <MESSAGE value="It works! Now just to fine tune it" />
-    <option name="LAST_COMMIT_MESSAGE" value="It works! Now just to fine tune it" />
+    <MESSAGE value="Macbook git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Macbook git test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,27 +551,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/charter_ch_lineup4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="39" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mymap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/charter_ch_lineup4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="39" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1860">
@@ -820,28 +791,28 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mymap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmaps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="19" selection-start="951" selection-end="951" vertical-scroll-proportion="0.379494" vertical-offset="240" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charter_ch_lineup4.py">
+    <entry file="file://$PROJECT_DIR$/input_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="39" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1860">
+        <state line="10" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.23510972" vertical-offset="0" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraps.txt">
+    <entry file="file://$PROJECT_DIR$/mymap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="630">
+        <state line="11" column="4" selection-start="446" selection-end="446" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/pypy/site-packages/BeautifulSoup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2190" max-vertical-offset="30345">
           <folding />
         </state>
       </provider>
@@ -850,6 +821,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="651">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charter_ch_lineup5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1935">
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charter_ch_lineup4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/pypy/site-packages/selenium/selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="846" column="65" selection-start="30243" selection-end="30243" vertical-scroll-proportion="0.37352246" vertical-offset="12532" max-vertical-offset="31875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/pypy/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="6" selection-start="2805" selection-end="2818" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="4335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charter_ch_lineup6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="94" selection-start="964" selection-end="964" vertical-scroll-proportion="0.38073394" vertical-offset="299" max-vertical-offset="840">
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+            <element signature="e#1400#1677#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,6 +12,9 @@ make all faster
 generate error message when website fails
 __init__
 
+if webpage contains selenium choose region then...
+else...
+
 
 
 f = open("states.txt", 'w')
